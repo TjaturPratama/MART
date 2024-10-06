@@ -1,0 +1,122 @@
+*,html {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #AFB3B7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+    background-color: #0D1F23;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav div img {
+    border-radius: 10px;
+    width: 100px;
+    height: 70px;
+}
+
+nav h1 {
+    font-size: 50px;
+    padding: 5px;
+    color: white;
+    margin-right: 600px;
+}
+
+.kembali button {
+    padding: 15px 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #4b5563;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.kembali button:hover {
+    background-color: #374151;
+    transition: 400ms;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 40px;
+    padding: 20px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-section img {
+    width: 500px; /* Atur ukuran gambar KK */
+    border: 1px solid #cbd5e1;
+}
+
+.back-button {
+    background-color: #374151;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.right-section input {
+    background-color: #f1f5f9;
+    border: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons-container button {
+    padding: 10px 20px;
+    background-color: #4b5563;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons-container button:hover {
+    background-color: #374151;
+}
+.buttons-container a {
+    padding: 10px 20px;
+    background-color: #4b5563;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons-container a:hover {
+    background-color: #374151;
+}

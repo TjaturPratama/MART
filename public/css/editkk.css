@@ -1,0 +1,108 @@
+*,html {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #AFB3B7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    background-color: #0D1F23;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav div img {
+    border-radius: 10px;
+    width: 100px;
+    height: 70px;
+}
+
+nav h1 {
+    font-size: 50px;
+    padding: 5px 0;
+    color: white;
+    margin-right: 375px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.form-container {
+    background-color: #4b5563;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container input[type="text"] {
+    background-color: #e5e7eb;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    color: #374151;
+}
+
+.form-container label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #d1d5db;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: #374151;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.form-container button:hover {
+    background-color: #1f2937;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Styling khusus untuk upload file */
+.file-upload {
+    background-color: #374151;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+.file-upload input[type="file"] {
+    display: none;
+}
+
+.back-button {
+    background-color: #374151;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}

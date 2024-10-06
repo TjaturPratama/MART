@@ -1,0 +1,58 @@
+*,html {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #AFB3B7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    background-color: #0D1F23;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav div img {
+    border-radius: 10px;
+    width: 100px;
+    height: 70px;
+}
+
+nav h1 {
+    font-size: 50px;
+    padding: 5px 0;
+    color: white;
+    margin-right: 655px;
+}
+
+.kembali button {
+    padding: 15px 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #4b5563;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.kembali button:hover {
+    background-color: #374151;
+    transition: 400ms;
+}
+
+
+.tabel{
+    text-align: center;
+}
+
+.tabel table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+}

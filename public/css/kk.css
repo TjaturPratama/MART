@@ -1,0 +1,102 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #afb3b7;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+nav {
+    background-color: #0d1f23;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 5px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1 px solid #afb3b7 rgba(0, 0, 0, 0);
+}
+
+nav div img {
+    border-radius: 10px;
+    width: 100px;
+    height: 70px;
+}
+
+nav ul li a:hover {
+    color: #afb3b7;
+    border-bottom: 1px solid #afb3b7;
+}
+
+nav h1 a{
+    text-decoration: none;
+    font-size: 50px;
+    padding: 5px 0;
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.cari input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 700px;
+}
+
+.cari a,
+.cari button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #4b5563;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cari a:hover,
+.cari button:hover {
+    background-color: #374151;
+    transition: 400ms;
+}
+
+.result a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-color: #ddd;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.result a:hover {
+    color: white;
+    background-color: #0d1f23;
+    transition: 400ms;
+}

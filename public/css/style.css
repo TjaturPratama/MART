@@ -1,0 +1,54 @@
+*,html {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D1F23;
+  }
+
+  .login-form {
+    background-color: #0D1F23;
+    padding: 125px;
+    width: 700px;
+  }
+
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+  }
+
+  .login-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .right-panel {
+    background-size: cover;
+    border-radius: 30px;
+    width: 30%;
+    height: 100%;
+
+  }
+
+  body button a {
+    text-decoration: none;
+    color: white;
+  }
+
+  body button:hover {
+    color:black;
+    background-color: #AFB3B7;
+    transition: 400ms;
+  }

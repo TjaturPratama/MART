@@ -1,0 +1,97 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #afb3b7;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+nav {
+    background-color: #0d1f23;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav div img {
+    border-radius: 10px;
+    width: 100px;
+    height: 70px;
+}
+
+nav h1 {
+    font-size: 50px;
+    padding: 5px 0;
+    color: white;
+    margin-right: 350px;
+}
+
+.container {
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.form-table td {
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+}
+
+.form-table input {
+    width: 100%;
+    padding: 8px;
+    background-color: #f1f5f9;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons-container {
+    margin-top: 70px;
+}
+
+.buttons-container button {
+    padding: 10px 20px;
+    background-color: #4b5563;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.buttons-container button:hover {
+    background-color: #374151;
+}
+
+.upload-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.upload-container input {
+    display: none;
+}
+
+.upload-container label {
+    padding: 10px 20px;
+    background-color: #9ca3af;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.upload-container label:hover {
+    background-color: #6b7280;
+}

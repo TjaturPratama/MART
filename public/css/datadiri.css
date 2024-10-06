@@ -1,0 +1,128 @@
+*,html {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #AFB3B7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+    background-color: #0D1F23;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav div img {
+    border-radius: 10px;
+    width: 100px;
+    height: 70px;
+}
+
+nav h1 {
+    font-size: 50px;
+    padding: 5px;
+    color: white;
+    margin-right: 600px;
+}
+
+.tabel{
+    text-align: center;
+}
+
+.tabel table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+}
+
+.tabel td {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding: 15px;
+    text-align: left;
+}
+
+.tabel img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.kembali button {
+    padding: 15px 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #4b5563;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.kembali button:hover {
+    background-color: #374151;
+    transition: 400ms;
+}
+
+
+.dokumen {
+    text-align: center;
+    margin-right: 500px;
+}
+
+.dokumen input {
+    display: none;
+}
+
+.dokumen label {
+    padding: 10px 20px;
+    background-color: #9ca3af;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.dokumen label:hover {
+    background-color: #6b7280;
+}
+
+.crud {
+    text-align: right;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+.crud button {
+    padding: 15px 25px;
+    background-color: #4b5563;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.crud button:hover {
+    background-color: #374151;
+    transition: 400ms;
+}
+.crud a {
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #4b5563;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.crud a:hover {
+    background-color: #374151;
+    transition: 400ms;
+}
